@@ -1,249 +1,214 @@
-# Privacy Policy for EcoDriver
+# EcoDrive Privacy Policy
 
-**Effective date:** 9 July 2026
-**App name:** EcoDriver
-**Developer:** [Insert legal entity / developer name]
-**Contact:** [Insert privacy contact email]
-**Website:** [Insert website URL]
+**Effective date: 12 July 2026**
 
-EcoDriver helps drivers understand fuel use, road conditions, route efficiency, vehicle movement, and driving behaviour. This Privacy Policy explains what information we collect, how we use it, when we share it, and the choices you have.
+EcoDrive is operated by **Jarsoft Limited** ("Jarsoft", "we", "us", or "our"). This Privacy Policy explains how EcoDrive processes personal information when you use the EcoDrive Android application and its supporting online services.
 
-By using EcoDriver, you agree to this Privacy Policy.
+For privacy questions, access or correction requests, or complaints, contact:
 
-## 1. Information we collect
+**Email:** [admin@jarsoft.co.nz](mailto:admin@jarsoft.co.nz)
 
-EcoDriver may collect the following types of information.
+## 1. Our privacy approach
 
-### Account and subscription information
+EcoDrive is designed as a local-first application. Most driving, vehicle, trip, and preference data is processed and stored on your device. Complete trip histories are not automatically uploaded to Jarsoft.
 
-If you create an account, contact us, or use a paid subscription, we may collect:
+Some features require online requests. In those cases, the app sends only the information needed to provide the requested feature, as described below.
 
-* Name or display name
-* Email address
-* Account identifiers
-* Subscription status and purchase information provided by Google Play
-* Support messages you send to us
+## 2. Information processed on your device
 
-We do not collect or store your full payment card details. Payments and subscriptions are handled by Google Play.
+### Location information
 
-### Location and route information
+With your permission, EcoDrive processes precise GPS location to:
 
-EcoDriver uses location information to provide driving, navigation, map, route, slope, glide, and efficiency features.
+- show your vehicle position;
+- record drives;
+- calculate distance, speed, movement, route progress, and driving events;
+- provide navigation and routing;
+- obtain map, road, elevation, slope, and related driving information; and
+- support glide and efficiency coaching.
 
-This may include:
+EcoDrive may store the most recent valid GPS fix in the app's private storage. This record can include latitude, longitude, time, location provider, and accuracy. It is used to restore a recent map or navigation origin and is treated as stale after 24 hours for that purpose.
 
-* GPS location
-* Speed and movement
-* Heading or bearing
-* Route start, destination, and waypoints
-* Trip path and route progress
-* Road, slope, elevation, and map-matching information
-* Approximate location used for map, routing, and regional data
+EcoDrive does not request Android's background-location permission. When trip logging is active, location may be processed by a visible foreground service.
 
-EcoDriver may collect location data while the app is open or while an active driving, navigation, or trip session is running. If background location is enabled, EcoDriver uses it only to support active driving or navigation features.
+### Trip and driving records
 
-### Vehicle and driving data
+EcoDrive stores trip records in the app's private storage on your device. Depending on the features used and available sensors, a trip record may contain:
 
-EcoDriver may collect vehicle and driving-related information, including:
+- GPS samples and route coordinates;
+- speed, acceleration, distance, and timing information;
+- OBD-II readings and diagnostic PID data;
+- fuel-use measurements or estimates;
+- vehicle-state estimates;
+- route geometry, road segments, and manoeuvres;
+- coaching recommendations and detected driving events; and
+- quality, confidence, provenance, and diagnostic information used to explain or replay results.
 
-* Vehicle profile information you enter, such as vehicle type, fuel type, approximate weight, engine details, or efficiency assumptions
-* Trip distance, speed, acceleration, braking, and glide/coasting behaviour
-* Fuel-use estimates and efficiency calculations
-* Road grade and route horizon data
-* Driving-session logs used to calculate recommendations
+During an active drive, EcoDrive may temporarily store partial-trip, raw GPS, and raw OBD records so a drive can survive an interruption or application restart. These records are consolidated or removed through the normal trip-finalisation process.
 
-If you connect an OBD-II device, EcoDriver may also process vehicle telemetry made available by that device, such as:
+### Vehicle information and settings
 
-* Vehicle speed
-* Engine RPM
-* Fuel rate or fuel-related readings
-* Throttle, load, temperature, or diagnostic values
-* Vehicle identification data, if exposed by your OBD-II device and supported by the app
+Vehicle profiles, app preferences, saved destinations, saved routes, map settings, voice settings, and related configuration are stored locally on your device unless a feature specifically states otherwise.
 
-### Device, app, and diagnostics information
+EcoDrive processes OBD-II information received from a connected adapter. The current application does not intentionally collect or store a vehicle identification number (VIN).
 
-We may collect technical information needed to operate, secure, and improve the app, including:
+### Bluetooth information
 
-* Device model and operating system version
-* App version
-* Device identifiers or installation identifiers
-* Crash reports
-* Performance logs
-* Error reports
-* Network diagnostics
-* Security and fraud-prevention signals
+EcoDrive uses Android Bluetooth scan and connection permissions to find and connect to compatible OBD-II adapters. Bluetooth device and connection information is processed on the device for this purpose.
 
-### Photos and media
+### Contacts
 
-If you choose to upload or select a vehicle photo, EcoDriver may access that image for the purpose of displaying it in the app. We do not access your photo library unless you grant permission, and we only use the image you choose.
+Contact searching is optional and disabled by default. If you enable it and grant Android contacts permission, EcoDrive can read contact display names and structured postal addresses when you submit a destination search.
 
-### Communications
+Contact data is searched on demand. The contact lookup does not intentionally cache or persist your address book. A matched postal address may be passed into the destination-geocoding process described below.
 
-If you contact us for support, we may collect your email address, message content, and any files or screenshots you provide.
+## 3. Information sent to Jarsoft
 
-## 2. How we use information
+### Routing and road-service requests
 
-We use information to:
+When you request a route or use an online road-data feature, EcoDrive may send information to Jarsoft-operated services, including:
 
-* Provide EcoDriver’s driving, routing, navigation, fuel-efficiency, glide, slope, and vehicle-analysis features
-* Calculate route efficiency, road grade, speed, fuel-use, and driving recommendations
-* Display trip history, vehicle profiles, maps, and app screens
-* Provide offline caching and improve reliability during poor network conditions
-* Process subscriptions and confirm entitlement status
-* Troubleshoot bugs, crashes, route issues, GPS issues, and performance problems
-* Improve app quality, safety, accuracy, and usability
-* Respond to support requests
-* Prevent misuse, fraud, abuse, or security incidents
-* Comply with legal obligations
+- precise origin and destination coordinates;
+- intermediate stop coordinates;
+- selected routing profile;
+- vehicle heading or bearing when available; and
+- the technical request information needed to provide and secure the service.
 
-We do not sell your personal information.
+Our servers also receive ordinary network information required to respond to requests, such as IP address, request time, request path, and transport metadata.
 
-## 3. When information is sent from your device
+Jarsoft does not use these requests to build an advertising profile and does not automatically receive your complete locally stored trip history.
 
-Some features may work locally on your device. Other features may require information to be sent to our servers or service providers.
+### Subscription and entitlement information
 
-For example, EcoDriver may send route, location, or map-related requests to our backend systems to calculate routing, road slope, route horizon, or efficiency recommendations. These requests are used to provide the requested app functionality.
+EcoDrive subscriptions are sold and managed through Google Play. To verify access, EcoDrive and Jarsoft's entitlement service process subscription-related information such as:
 
-Where practical, we minimise the information sent and use caching or local processing to reduce unnecessary data transmission.
+- a pseudonymous or obfuscated account identifier;
+- Google Play purchase token;
+- subscription product identifier;
+- subscription state;
+- expiry time; and
+- entitlement update time.
 
-## 4. Sharing information
+Jarsoft does not receive your payment-card details. Google processes payment information under Google's own terms and privacy policy.
 
-We may share information with:
+EcoDrive does not currently provide a general named Jarsoft account system. Subscription identifiers are used to verify entitlement rather than to create a public user profile.
 
-### Service providers
+## 4. Information sent to other providers
 
-We may use trusted service providers to help operate the app, including hosting, routing, map services, analytics, crash reporting, customer support, security, and subscription processing.
+### Address and destination lookup
 
-These providers may process information only as needed to provide services to us.
+EcoDrive first attempts to use Android's geocoding service. The provider and whether the lookup occurs locally or remotely can depend on your device and operating-system implementation.
+
+If that lookup is unavailable or unsuccessful, EcoDrive may use the public OpenStreetMap Nominatim service. In that case:
+
+- a typed destination or address search is sent as search text; or
+- precise latitude and longitude are sent for reverse geocoding.
+
+A postal address selected through optional contact search may therefore be sent to Android's geocoding provider or OpenStreetMap Nominatim to resolve it into map coordinates.
+
+These providers process information under their own privacy terms and service policies.
 
 ### Google Play
 
-If you purchase a subscription or paid feature, Google Play processes payment and subscription information. We receive subscription status and transaction-related information needed to unlock paid features.
+Google Play processes purchase, billing, subscription, device, fraud-prevention, and account information needed to sell and manage subscriptions. Jarsoft receives only the subscription and entitlement information needed to verify access, as described above.
 
-### Legal, safety, and security reasons
+## 5. Information EcoDrive does not currently collect through embedded SDKs
 
-We may disclose information if required to do so by law, regulation, court order, or lawful request, or if we believe disclosure is reasonably necessary to protect rights, safety, security, users, or the integrity of EcoDriver.
+The current EcoDrive application does not include:
 
-### Business transfers
+- an advertising SDK;
+- a behavioural advertising or analytics SDK;
+- a third-party crash-reporting SDK; or
+- code that intentionally collects an advertising identifier.
 
-If EcoDriver is involved in a merger, acquisition, restructuring, or sale of assets, information may be transferred as part of that transaction. We will take reasonable steps to ensure your information remains protected.
+We do not sell personal information.
 
-## 5. Data we do not collect
+If these practices materially change, we will update this Privacy Policy and any applicable Google Play disclosures before or when the changed feature is released.
 
-EcoDriver does not intentionally collect:
+## 6. Why we process information
 
-* Payment card numbers
-* Contact lists
-* SMS messages
-* Call logs
-* Microphone recordings
-* Unrelated photos or media files
-* Advertising profiles for sale to advertisers
+We process personal information only where it is reasonably necessary to:
 
-If this changes, we will update this Privacy Policy and any required app-store disclosures.
+- provide app features requested by you;
+- record and display your local trip history;
+- calculate routes and driving information;
+- connect to vehicle hardware;
+- resolve destinations and addresses;
+- verify subscriptions and paid access;
+- maintain, secure, diagnose, and improve the service;
+- respond to support and privacy requests; and
+- comply with legal obligations.
 
-## 6. Legal basis for processing
+You can decline optional permissions. Some features will not work without the information they require. For example, navigation and trip recording require location access, OBD features require Bluetooth access, and contact destination search requires contacts access.
 
-Where a legal basis is required, we process information because:
+## 7. Storage and retention
 
-* It is necessary to provide the app and its requested features
-* You have given permission, such as location, Bluetooth, camera, or photo access
-* We have a legitimate interest in operating, securing, debugging, and improving the app
-* It is necessary to comply with legal obligations
-* It is necessary to manage subscriptions, purchases, or support requests
+### On-device data
 
-## 7. Permissions used by the app
+Locally stored trip records and settings remain on your device until you delete them through EcoDrive where a deletion control is provided, clear the app's storage, or uninstall the app.
 
-EcoDriver may request permissions such as:
+EcoDrive disables ordinary Android application backup for its private application data. Files you deliberately export or share are outside EcoDrive's private storage and are controlled by you and the receiving application or service.
 
-* **Location:** to provide GPS, routing, map, trip, and driving features
-* **Background location:** to support active driving or navigation sessions when the app is not on screen
-* **Bluetooth:** to connect to OBD-II or vehicle-related devices
-* **Camera or photos:** to let you add a vehicle image
-* **Notifications:** to provide trip, navigation, subscription, or app-status alerts
-* **Network access:** to retrieve routes, map data, slope data, subscription status, and app services
+### Server-side data
 
-You can manage permissions through your device settings. Some app features may not work if required permissions are disabled.
+Jarsoft keeps subscription entitlement records for as long as needed to provide, reconcile, secure, and support subscription access and to meet legal obligations.
 
-## 8. Data retention
+Routing and service requests may be present in operational or security logs for a limited period. We keep such logs only for legitimate operational, diagnostic, abuse-prevention, security, and legal purposes and restrict access to authorised persons.
 
-We keep personal information only for as long as reasonably necessary for the purposes described in this Privacy Policy.
+Information retained in backups is removed through the applicable backup-rotation process rather than immediately from every backup copy.
 
-For example:
+## 8. Disclosure
 
-* Account information is kept while your account is active
-* Subscription information is kept as needed to manage purchases and records
-* Trip and vehicle data may be kept until you delete it, delete your account, or ask us to remove it, subject to legal or technical limitations
-* Crash and diagnostic logs are usually kept for a limited period to help resolve issues
-* Backup copies may remain for a short time before being deleted through normal backup rotation
+We may disclose personal information only where reasonably necessary to:
 
-## 9. Your choices and rights
+- providers that operate infrastructure or services on our behalf;
+- Google and Google Play for subscription processing and verification;
+- geocoding providers when you use address-lookup features;
+- professional advisers where needed for legal, accounting, security, or compliance purposes;
+- a purchaser or successor in connection with a genuine business restructuring, subject to appropriate safeguards; or
+- a regulator, court, law-enforcement agency, or other person where required or permitted by law.
 
-Depending on where you live, you may have rights to:
+We do not disclose personal information to data brokers or advertisers.
 
-* Access personal information we hold about you
-* Ask us to correct inaccurate information
-* Ask us to delete information
-* Object to or restrict certain processing
-* Withdraw consent where processing is based on consent
-* Request a copy of your information
-* Make a privacy complaint
+## 9. Overseas processing
 
-You can also control many types of data through your device settings, including location, Bluetooth, notifications, camera, and photo access.
+Some service providers may process information outside New Zealand. This includes Google services and, when used, the public OpenStreetMap Nominatim service. We take reasonable steps to use reputable providers and appropriate safeguards where New Zealand privacy law requires them.
 
-To make a privacy request, contact us at:
+## 10. Security
 
-**[Insert privacy contact email]**
+We use reasonable technical and organisational safeguards appropriate to the nature of the information we process. These include private app storage, transport encryption for production online services, access controls, and limiting collection to the information needed for each feature.
 
-We may need to verify your identity before responding.
+No storage or transmission method is completely secure. You are responsible for maintaining appropriate security on your device and for choosing where exported files are shared.
 
-## 10. Deleting your account or data
+## 11. Your choices and rights
 
-You may request deletion of your account or personal information by contacting us at:
+You can:
 
-**[Insert privacy contact email]**
+- grant or deny Android permissions;
+- disable optional contact searching;
+- delete individual trips or all locally stored trip records where those controls are available;
+- clear EcoDrive's local storage through Android settings;
+- uninstall EcoDrive;
+- manage or cancel your subscription through Google Play; and
+- contact us to request access to or correction of personal information held by Jarsoft.
 
-We will delete or de-identify information unless we need to retain it for legal, security, fraud-prevention, dispute-resolution, backup, or legitimate operational reasons.
+Under the New Zealand Privacy Act 2020, you may ask us to confirm whether we hold personal information about you and request access to or correction of that information, subject to lawful exceptions.
 
-## 11. Security
+Because most trip information is stored only on your device, Jarsoft may not possess a copy and may therefore be unable to retrieve it for you.
 
-We use reasonable technical and organisational measures to protect information from unauthorised access, loss, misuse, alteration, or disclosure.
+To make a privacy request, email [admin@jarsoft.co.nz](mailto:admin@jarsoft.co.nz). We may need to verify your identity before acting on a request.
 
-However, no app, network, or storage system is completely secure. You are responsible for keeping your device, account credentials, and connected vehicle devices secure.
+You may also complain to the Office of the Privacy Commissioner in New Zealand if you are not satisfied with our response.
 
-## 12. International transfers
+## 12. Children and driving eligibility
 
-EcoDriver’s servers and service providers may be located in New Zealand, Australia, the United States, or other countries.
+EcoDrive is a driving application and is not directed to children who are not legally permitted to drive. A young person should use EcoDrive only where legally permitted and with appropriate parent or guardian involvement.
 
-Where information is transferred internationally, we take reasonable steps to protect it in accordance with applicable privacy laws.
+## 13. Changes to this policy
 
-## 13. Children’s privacy
+We may update this Privacy Policy when EcoDrive's features, providers, or legal obligations change. We will publish the revised policy with a new effective date and provide additional notice where a change is material.
 
-EcoDriver is not designed for children and is not intended for users under 16 years old.
+## 14. Contact
 
-We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, contact us and we will take reasonable steps to delete it.
-
-## 14. Third-party services
-
-EcoDriver may interact with third-party services such as app stores, subscription processors, map or routing providers, crash-reporting tools, analytics services, cloud hosting providers, and support systems.
-
-These third parties may process information under their own privacy policies. We encourage you to review their privacy policies where relevant.
-
-## 15. Changes to this Privacy Policy
-
-We may update this Privacy Policy from time to time.
-
-If we make material changes, we will take reasonable steps to notify users, such as updating the policy in the app, on our website, or in the app-store listing.
-
-The effective date at the top of this policy shows when it was last updated.
-
-## 16. Contact us
-
-For privacy questions, requests, or complaints, contact:
-
-**[Insert legal entity / developer name]**
-**Email:** [Insert privacy contact email]
-**Address:** [Insert business address, if required or preferred]
-**Website:** [Insert website URL]
-
-If you are not satisfied with our response, you may have the right to contact your local privacy regulator.
+**Jarsoft Limited**  
+**Email:** [admin@jarsoft.co.nz](mailto:admin@jarsoft.co.nz)
