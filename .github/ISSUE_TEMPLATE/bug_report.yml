@@ -1,0 +1,76 @@
+name: Bug report
+description: Report a reproducible EcoDrive defect
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include access tokens, purchase tokens, email addresses, contact data, registration plates, VINs, exact home addresses, or unredacted trip logs/routes. Report security issues privately to admin@jarsoft.co.nz.
+  - type: input
+    id: version
+    attributes:
+      label: EcoDrive version
+      placeholder: e.g. 0.1.0
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version and device
+      placeholder: e.g. Android 16, Pixel 8
+    validations:
+      required: true
+  - type: dropdown
+    id: context
+    attributes:
+      label: Driving context
+      options:
+        - Navigation
+        - Free drive
+        - Trip recording/history
+        - OBD-II connection
+        - Subscription/billing
+        - Settings/onboarding
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      placeholder: Numbered steps with sensitive details removed
+    validations:
+      required: true
+  - type: dropdown
+    id: safety
+    attributes:
+      label: Safety impact
+      options:
+        - No safety impact observed
+        - Potential distraction or unsafe guidance
+        - App interfered with normal use while driving
+        - Unsure
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I removed credentials, personal information, exact private locations, registration plates, VINs, and unredacted trip data.
+          required: true
+        - label: This is not a security vulnerability; security reports go to admin@jarsoft.co.nz.
+          required: true

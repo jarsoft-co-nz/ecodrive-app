@@ -1,0 +1,51 @@
+name: Feature request
+description: Suggest an EcoDrive improvement
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Explain the problem first. Do not include personal information, precise private routes, credentials, purchase tokens, registration plates, or VINs.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What user need or limitation does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behaviour
+    validations:
+      required: true
+  - type: dropdown
+    id: context
+    attributes:
+      label: Main context
+      options:
+        - Navigation
+        - Driving coaching
+        - Trip history and analysis
+        - OBD-II and vehicle data
+        - Maps and routing
+        - Accessibility or voice
+        - Subscription or account
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety implications
+      description: Could this distract a driver, encourage unsafe behaviour, or alter driving guidance?
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Data and permission implications
+      description: Would this require new data collection, sharing, storage, permissions, or third-party services?
+    validations:
+      required: true

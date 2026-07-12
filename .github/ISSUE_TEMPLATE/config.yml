@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/jarsoft-co-nz/ecodrive-app/security/policy
+    about: Report vulnerabilities privately using the instructions in the security policy.
+  - name: General support
+    url: https://github.com/jarsoft-co-nz/ecodrive-app/blob/main/SUPPORT.md
+    about: Review support options before opening an issue.
+  - name: Privacy Policy
+    url: https://github.com/jarsoft-co-nz/ecodrive-app/blob/main/privacy-policy.md
+    about: Read how EcoDrive processes and protects information.
